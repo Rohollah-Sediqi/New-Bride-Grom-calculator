@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(90deg,skyblue, rgba(255, 255, 0, 0.6));
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #dcdcdca9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.form-control, .form-check-input {
+    margin-top: 5px;
+    color: black;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.form-check-label {
+    font-size: 1em;
+    color: #222222;
+}
+
+button {
+    font-size: 1.2em;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#result {
+    font-size: 1.5em;
+    color: #28a745;
+}
